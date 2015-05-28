@@ -9,10 +9,10 @@ São ambientes de desenvolvimento que utiliza VirtualBox e Ansible ;)
 
 ## Start 
 
--Vagrant up
+	-Vagrant up
 
--vagrant provision
+	-vagrant provision
 
--vagrant ssh
+	-vagrant ssh
 
 
