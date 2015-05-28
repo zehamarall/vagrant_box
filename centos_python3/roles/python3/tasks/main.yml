@@ -1,0 +1,26 @@
+- name: install ssl/tls
+  yum: name=openssl-devel state=present
+
+- name: download sources
+  get_url: url=https://www.python.org/ftp/python/3.4.3/Python-3.4.3.tar.xz dest=/tmp
+
+- name: Python3 descompactar xz
+  command: xz -df Python-3.4.3.tar.xz chdir=/tmp
+
+- name: Python3 descompactar tar 
+  command: tar -xvf Python-3.4.3.tar chdir=/tmp
+
+- name: Python3 configure  
+  command: ./configure --with-ensurepip=install chdir=/tmp/Python-3.4.3
+
+- name: Python3 make 
+  command: make  chdir=/tmp/Python-3.4.3
+
+- name: Python3 make install  
+  command: make install chdir=/tmp/Python-3.4.3
+
+- name: Pip3 make install django  
+  command: /usr/local/bin/pip3 install django==1.7
+
+- name: Pip3 install update Selenium 
+  command: /usr/local/bin/pip3 install --upgrade selenium

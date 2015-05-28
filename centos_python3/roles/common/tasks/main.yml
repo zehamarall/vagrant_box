@@ -1,0 +1,17 @@
+- name: upgrade all packages
+  yum: name=* state=latest
+
+- name: Install libselinux-python
+  yum: name=libselinux-python state=present
+
+- name: Install dev-tools
+  yum: name="@Development tools" state=present
+
+- name: Copy the EPEL repository definition
+  copy: src=epel.repo dest=/etc/yum.repos.d/epel.repo
+
+- name: Create the GPG key for EPEL
+  copy: src=RPM-GPG-KEY-EPEL-6 dest=/etc/pki/rpm-gpg
+
+- name: Install wget
+  yum: name=wget state=present
