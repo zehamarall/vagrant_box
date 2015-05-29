@@ -1,4 +1,4 @@
-# vagrant_boxs
+vagrant_boxs
 =========
 
 São ambientes de desenvolvimento utilizando VirtualBox e Ansible ;)
@@ -18,8 +18,8 @@ Start
 
 1. Clone projeto
 
-	$ git clone git@github.com:chaordic/act-acdc.git
-	$ cd act-acdc
+	$ git clone https://github.com/zehamarall/vagrant_box.git
+	$ cd vagrant_box
 
 2. Start Vagrant
 
