@@ -1,18 +1,46 @@
 # vagrant_boxs
+=========
 
 São ambientes de desenvolvimento que utiliza VirtualBox e Ansible ;)
 
-## Pré requisitos 
+Requirements
+-------
 
-*VirtualBox
-*Ansible
+1. Virtual Box [https://www.virtualbox.org/](https://www.virtualbox.org/)
 
-## Start 
+2. Vagrant [http://www.vagrantup.com/](http://www.vagrantup.com/)
 
-	-Vagrant up
+3. Ansible [http://www.ansible.com/](http://www.ansible.com/)
 
-	-vagrant provision
 
-	-vagrant ssh
+Start 
+-------
+
+1. Clone projeto
+
+        $ git clone git@github.com:chaordic/act-acdc.git
+	$ cd act-acdc
+
+2. Start Vagrant
+
+	$ Vagrant up
+
+3. Provisioning Ansible
+
+	$ vagrant provision
+
+4. Connect ssh host 
+
+	$ vagrant ssh
+
+License
+-------
+
+BSD
+
+Author Information
+------------------
+
+[Leandro Amaral](https://github.com/zehamarall)
 
 
