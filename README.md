@@ -1,7 +1,7 @@
 # vagrant_boxs
 =========
 
-São ambientes de desenvolvimento que utiliza VirtualBox e Ansible ;)
+São ambientes de desenvolvimento utilizando VirtualBox e Ansible ;)
 
 Requirements
 -------
