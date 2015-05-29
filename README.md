@@ -18,7 +18,7 @@ Start
 
 1. Clone projeto
 
-        $ git clone git@github.com:chaordic/act-acdc.git
+	$ git clone git@github.com:chaordic/act-acdc.git
 	$ cd act-acdc
 
 2. Start Vagrant
