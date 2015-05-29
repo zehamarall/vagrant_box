@@ -18,20 +18,28 @@ Start
 
 1. Clone projeto
 
+	```
 	$ git clone https://github.com/zehamarall/vagrant_box.git
 	$ cd vagrant_box
+	```
 
 2. Start Vagrant
 
+	```
 	$ Vagrant up
+	```
 
 3. Provisioning Ansible
 
+	```
 	$ vagrant provision
+	```
 
 4. Connect ssh host 
 
+	```
 	$ vagrant ssh
+	```
 
 License
 -------
