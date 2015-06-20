@@ -1,0 +1,8 @@
+---
+- name: Install Docker
+  yum: name=docker state=present
+
+- name: change permision to vagrant user 
+  shell: sudo gpasswd -a vagrant dockerroot    
+
+- service: name=docker state=started
